@@ -11,34 +11,35 @@
   </head>
 
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    method="get"
-    onsubmit="onSubmit()"
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="get"
+      onsubmit="onSubmit()"
     >
 
       <fieldset>
         <legend>Personal information</legend>
         <div>
           <label for="Surname">
-          Surname:
+            Surname:
           </label>
           <input
-          type="text"
-          name="Surname"
-          id="Surname"
-          autocomplete="off"
+            type="text"
+            name="Surname"
+            id="Surname"
+            autocomplete="off"
           >
         </div>
 
         <div class="form-field">
           <label for="Name">
-          Name:
+            Name:
           </label>
           <input
-          type="text"
-          name="Name"
-          id="Name"
-          autocomplete="off"
+            type="text"
+            name="Name"
+            id="Name"
+            autocomplete="off"
           >
         </div>
 
@@ -50,10 +51,9 @@
             value="12"
             type="number"
             name="age"
-            id="Age"
-            min="12"
+            id="Age" min="12"
             max="100"
-            >
+          >
         </div>
 
         <div class="form-field">
@@ -64,7 +64,7 @@
             type="date"
             name="date"
             id="Date"
-            >
+          >
         </div>
 
         <div class="form-field">
@@ -75,7 +75,7 @@
             type="checkbox"
             name="agreement"
             id="Agreement"
-            >
+          >
         </div>
       </fieldset>
 
@@ -83,13 +83,13 @@
         <legend>Registration</legend>
         <div>
           <label for="email">
-          E-mail:
+            E-mail:
           </label>
           <input
-          type="email"
-          name="E-mail"
-          id="email"
-          placeholder="email@example.com"
+            type="email"
+            name="E-mail"
+            id="email"
+            placeholder="email@example.com"
           >
         </div>
 
@@ -101,9 +101,10 @@
             type="password"
             name="Password"
             id="password"
-            required minlength="5"
+            required
+            minlength="5"
             maxlength="30"
-            >
+          >
         </div>
       </fieldset>
 
@@ -114,22 +115,22 @@
 
           <label for="yes">
             <input
-          type="radio"
-          name="love"
-          value="yes"
-          id="yes"
-          >
-          Yes
+              type="radio"
+              name="love"
+              value="yes"
+              id="yes"
+            >
+            Yes
           </label>
 
           <label for="no">
             <input
-          type="radio"
-          name="love"
-          value="no"
-          id="no"
-          >
-          No
+              type="radio"
+              name="love"
+              value="no"
+              id="no"
+            >
+            No
           </label>
         </div>
 
@@ -141,7 +142,7 @@
             type="color"
             name="color"
             id="Color"
-            >
+          >
         </div>
 
         <div class="form-field">
@@ -151,7 +152,8 @@
           <input
             type="time"
             name="asleep"
-            id="Asleep">
+            id="Asleep"
+          >
         </div>
 
         <div class="form-field">
@@ -163,7 +165,7 @@
             id="Brand"
             required
             multiple
-            >
+          >
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
@@ -179,7 +181,7 @@
             type="range"
             name="rate"
             id="Rate"
-            >
+          >
         </div>
       </fieldset>
 
@@ -190,8 +192,8 @@
             Comments
           </label>
           <textarea
-          name="comments"
-          id="Comments"
+            name="comments"
+            id="Comments"
           >
           </textarea>
         </div>
@@ -200,7 +202,10 @@
           <label for="Recommend">
             Would you recommend us?
           </label>
-          <select name="recommend" id="Recommend">
+          <select
+            name="recommend"
+            id="Recommend"
+          >
             <option value="Y">yes</option>
             <option value="N">no</option>
           </select>
